@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+.maincontent {
+    background: grey;
+    margin: 0;
+}
+header {
+    text-align: center;
+    background: white;
+    
+}
+.feed-wrapper {
+    width: 600px;
+    margin: auto;
+}
+.feed-header {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.instagram-feed {
+    background: grey;
+    margin-bottom: 22px;
+}
+.instagram-feed img {
+    width: 100%;
+}
+.instagram-feed h2, .instagram-feed p {
+    padding: 10px;
+}
+.header-name {
+    display: inline-block;
+    width: 80%;
+    line-height: 30px;
+    font-weight: bold;
+} 
+.header-date {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    line-height: 30px;
+    color: grey;
+}
+.photo1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.instagram-feed p {
+    background: white;
+    margin: 0;
+}
+.feed-footer {
+    height: 5px;
+}
+.maincontent {
+    font-family: "Ramabhadra", normal;
+}
